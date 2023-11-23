@@ -57,7 +57,6 @@ function App() {
   );
 }
 function Header() {
-  //const style = { color: "red", fontSize: "48px", textTransform: "uppercase" };
   const style = {};
   return (
     <header className="header">
@@ -92,7 +91,6 @@ function Menu() {
   );
 }
 function Pizza({ pizzaObj }) {
-  //if (pizzaObj.soldOut) return null;
   return (
     <li className={`pizza ${pizzaObj.soldOut ? "sold-out" : ""}`} y>
       <img src={pizzaObj.photoName} alt={pizzaObj.name} />
