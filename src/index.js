@@ -66,7 +66,7 @@ function Header() {
 }
 
 function Menu() {
-  const x = 0; //schimbare
+  const x = 1; //schimbare
   const pizzas = pizzaData;
   const numPizzas = pizzas.length;
   return (
