@@ -57,7 +57,7 @@ function App() {
   );
 }
 function Header() {
-  const style = {};
+  const style = {}; // aici obiectuk poate fi populat cu proprietati CSS
   return (
     <header className="header">
       <h1 style={style}>Fast React Pizza Co.</h1>
